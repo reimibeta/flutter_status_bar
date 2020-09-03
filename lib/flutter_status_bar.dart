@@ -3,7 +3,7 @@ library flutter_status_bar;
 import 'package:flutter/material.dart';
 import 'dart:io' show Platform;
 
-export 'src/status_bar_color.dart' show StatusBarColor;
+export 'src/flutter_status_bar_color.dart' show FlutterStatusBarColor;
 
 class FlutterStatusBar extends StatelessWidget {
   final Color color;

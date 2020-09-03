@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:io' show Platform;
 
-class StatusBarColor {
+class FlutterStatusBarColor {
   static void theme({Brightness brightness, Color color}){
     var bright = brightness == null ? Brightness.light : brightness;
     var statusColor = color == null ? Colors.white : color;
